@@ -1,0 +1,20 @@
+[package]
+name = "rfidfyi"
+version = "0.1.0"
+edition = "2021"
+authors = ["FYIPedia"]
+description = "RFID tag and reader reference, EPC standard lookup, and frequency band encyclopedia -- async API client for rfidfyi.com."
+license = "MIT"
+repository = "https://github.com/fyipedia/rfidfyi-rs"
+homepage = "https://rfidfyi.com"
+documentation = "https://docs.rs/rfidfyi"
+readme = "README.md"
+keywords = ["rfid", "epc", "uhf", "tag", "api-client"]
+categories = ["api-bindings", "data-structures"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+tokio = { version = "1", features = ["full"] }
