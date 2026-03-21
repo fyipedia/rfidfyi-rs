@@ -41,7 +41,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 - **Site**: [rfidfyi.com](https://rfidfyi.com)
 - **API**: [rfidfyi.com/api/v1/](https://rfidfyi.com/api/v1/)
 - **OpenAPI**: [rfidfyi.com/api/v1/schema/](https://rfidfyi.com/api/v1/schema/)
-
+- **Glossary**: [rfidfyi.com/glossary/](https://rfidfyi.com/glossary/)
+- **Guides**: [rfidfyi.com/guides/](https://rfidfyi.com/guides/)
+- **Tools**: [rfidfyi.com/tools/](https://rfidfyi.com/tools/)
 Part of the [FYIPedia](https://fyipedia.com) open-source developer tools ecosystem.
 
 ## Tag FYI Family
