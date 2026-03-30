@@ -1,6 +1,6 @@
 [package]
 name = "rfidfyi"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["FYIPedia"]
 description = "RFID tag and reader reference, EPC standard lookup, and frequency band encyclopedia -- async API client for rfidfyi.com."
